@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+   position: relative;
+   font-style: black;
+}
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+dl,
+dd {
+	margin: auto;
+}
+/*导航*/
+
+.divider {
+  height: 0;
+  margin: 1.5rem auto;
+  overflow: hidden;
+  clear: both;
+  height: 1px;
+  margin: 0rem 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.fixed-top{position: fixed;/*固定在顶部*/
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          top:0;
+      }
+
+/*自适应*/
+@media only screen and (min-width: 1200px) {
+      .am-g {
+        max-width: 1200px;
+      }
+}
+@media only screen and (max-width:640px) {
+    .blog-entry-article {
+        padding-bottom:1rem;
+        text-align:center;
+    }
+}
+      
+      /*成员介绍 */
+.am-pho {
+	width:100%;
+	height: 350px;
+
+}
+
+.am-container-1 {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.part-all {
+	width: 100%;
+	margin-top: 20px;
+}
+#panel-txt{
+	margin-left:30px;
+	height: 258px;
+}
+.part-title {
+	text-align: center;
+	position: relative;
+}
+
+.part-title-i {
+	vertical-align: sub;
+	font-size: 36px;
+	color: #0086da;
+	margin-right: 5px;
+}
+
+.part-title-span {
+	font-size: 26px;
+	font-weight: bolder;
+}
+.part-content {
+	text-align: center;
+	margin-top: 35px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.solutions-way {
+	margin-top: 10px;
+	font-size: 13px;
+	color: #555555;
+}
+
+.solutions-title {
+	margin-top: 15px;
+	font-size: 17px;
+	display: block;
+	font-weight: 500;
+}
+
+.solution-circle {
+	font-size: 64px;
+	background-color: #3f9fdb;
+	width: 170px;
+	height: 170px;
+	line-height: 140px;
+	border: 15px solid #f0f0f0;
+	color: #fff;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-moz-transition: -moz-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;
+}
+.solutions-content li img {
+	width: 40%;
+}
+.solution-circle:hover {
+	background-color: #0071b8;
+	border: 15px solid #c9dfec;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/*foot*/
+.footer {
+	width: 100%;
+	height: 200px;
+	background-color: white; 
+	overflow: hidden;
+	padding: 0 5% 25px 5%;
+	border-top: 2px dashed black;
+}
+
+.footer ul {
+	padding-top: 40px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.footer ul li {
+	color: black;
+}
+
+
+
+.part-5-title {
+	color: black;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+/*she say*/
+.box{
+	height: 100px;
+	width: 100px;
+	margin-left: 5px;
+}
+.box-first{
+	height: 100px;
+	width: 100px;
+	margin-left: -15px;
+}
+.ambtn {
+    margin-top: 2em;
+}
+.ambtn i, {
+	font-size: 15px;
+	border:1px solid #212121;
+    padding: 8px 10px;
+    color: #212121;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-moz-transition:0.5s all;
+	font-size: 11px;
+    padding: 8px 8px;
+}
+.ambtn i:hover, {
+	background: transparent;
+	background:#ffac3a;
+	border:1px solid #ffac3a;
+	color:#fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+.title { position: relative; z-index: 2; font-size: 16px; line-height: 24px; text-align: center; color: #999; overflow: hidden; }
+.title .caption { position: relative; display: inline-block; }
+.title .caption .line { position: absolute; top: 11px; width: 600px; height: 1px; background-color: #ddd; }
+.title .caption .line-l { right: 100%; margin-right: 15px; }
+.title .caption .line-r { left: 100%; margin-left: 15px; }
+
+#list-head {
+	margin-top: 80px;
+	width:230px;
+	margin-left: 10px;
+}
+.pho-head{
+	width: 250px;
+	height: 125px;
+
+}
+.news-content-all div {
+	padding: 0;
+}
+.news-ul{
+	margin-left: -35px;
+	margin-top: 15px;
+}
+.news-ul-liimg  {
+	width: 100%;
+}
+.news-ul-liimg-txt {
+	text-align: center;
+	font-weight: 50px;
+}
+
+.news-content-all { margin-top: 45px;}
+
+.news-ul-liall{ position: relative;
+overflow: hidden;}
+.news-ul li:hover .see-more3 {
+	color: #fff;
+	background-color: #128abc;
+	border: 1px solid #128abc;
+	transition: all 0.4s ;
+-moz-transition: all 0.4s ;
+-webkit-transition: all 0.4s ;
+-o-transition: all 0.4s ;
+}
+.news-hd{
+margin: 0;
+font-weight: normal;
+ clear: both;
+  padding-bottom: 0.5rem;
+
+}
+.news-more{
+	 font-size: 1.3rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+.fr{
+	margin-left: .3em;
+	 float: right;
+	  right: 0;
+  left: auto;
+}
+.inform-list {position: absolute;
+left:0;
+top:20px;
+	
+}
+.inform-list div i{
+	margin-right: 5px;
+}
+.inform-list div{
+	padding: 5px 12px;
+	margin: 6px 0;
+	width: auto;
+	background-color: #128abc;
+	color: #fff;
+	font-size: 13px;
+	margin-left: -100%;
+	display: table;
+	opacity: 0;
+}
+
+	
+
+.am-panel > .am-list > li > a {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 20px;
+}
+
+.am-list > li > a {
+	display: block;
+	padding: 5px 0;
+}
+
+.am-panel-default > .am-panel-hd {
+	color: #ffffff;
+	background-color: #0086da;
+	border-color: #0086da;
+	font-weight: bold;
+}
+
+#page-txt{
+	text-align:center；
+}
+
+.btn-container{
+display: table;
+width: 100%;
+margin-left: -20px;
+}
+#btn-child{
+	display: table-cell;
+}
+/*feelings*/
+.scrollspy-nav {
+    top: 0;
+    z-index: 100;
+    background: #0e90d2;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+.scrollspy-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+.scrollspy-nav li {
+    display: inline-block;
+    list-style: none;
+  }
+
+.scrollspy-nav a {
+    color: #eee;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+
+.scrollspy-nav a.am-active {
+    color: #fff;
+    font-weight: bold;
+  }
+
+.am-panel {
+    margin-top: 20px;
+  }
+.box-circle{
+    border: 0;
+    float:right;
+    margin-left: 800px;
+  }
+
+
+.am-tabs-nav li {
+    position: relative;
+    z-index: 1;
+  }
+
+  .am-tabs-nav .am-icon-close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #888;
+    cursor: pointer;
+    z-index: 100;
+  }
+.am-tabs-nav .am-icon-close:hover {
+    color: #333;
+  }
+.am-tabs-nav .am-icon-close ~ a {
+    padding-right: 25px!important;
+  }
+  /*comments*/
+.form-con
+  {
+  	 margin: 5px 0 0;
+  padding: 0.25em 0.625em;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  }
+.comment-meta{
+  	-webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  }
+.comment-meta a {
+  color: #999999;
+}
+.comment-hd{
+	  padding: 15px;
+  overflow: hidden;
+}
+
+
+
+
